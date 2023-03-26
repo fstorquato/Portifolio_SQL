@@ -1,5 +1,5 @@
 # PROBLEMA
-## Formatar base de dados para desenvolver uma análise de Churn
+## Formatar base de dados para desenvolvimento de uma análise de Churn
 ### Considerar Churn clientes que não compram há mais de 6 meses
 
 Exemplo do arquivo *.csv para importação
@@ -13,7 +13,7 @@ DATA,COD_CLIENTE,GRUPO,CIDADE,UF,ROTA,CARGA,NOTA_FISCAL,VALOR_NF,ID_VENDEDOR,ID_
 2018-01-01,69452,D,VOTORANTIM,SP,SOROCABA,1033792,5250321,493.1,148,1052,SUPERMERCADOS,JUNDIAI,552,BOLETO,"14 DDL",27.4,2018,1
 ```
 
-## Query para saída dp resultado
+## Query para saída do resultado
 
 ```
 SET @data_base = '2021-12-31';
@@ -52,7 +52,7 @@ ORDER BY DATA DESC) TCH
 ORDER BY DATA_ULT_COMPRA DESC, CLIENTE;
 ```
 
-## Resuldado da Query
+## Resultado da Query
 ```
 CLIENTE,SEGMENTO,FILIAL,ROTA,CIDADE,UF,QTD_VENDA,KG_ACUM,DATA_ATUAL,DATA_ULT_COMPRA,DIF_DIAS_ULT,DATA_PRI_COMPRA,DIF_DIAS_PRI,MESES_COMPRANDO,MESES_SEM_COMPRAR,KG_VENDA,VENDA_MES,CHURN
 10086,SUPERMERCADOS,"SAO CARLOS",ARARAQUARA,MATAO,SP,103,5658.7,2021-12-31,2021-12-31,0,2018-01-04,1457,47,0,54.9,2.2,0
