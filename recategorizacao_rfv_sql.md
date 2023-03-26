@@ -151,4 +151,4 @@ DATA_RELAT,DATA_VENDA,COD_CLIENTE,CIDADE,UF,ROTA,CARGA,NOTA_FISCAL,VALOR_NF,ID_V
 2021-12-31,2018-01-02,38240,ARAPONGAS,PR,LONDRINA,1033520,5249325,457.37,111,1068,SUPERMERCADOS,LONDRINA,568,DEPOSITO,ANT,25.4,3,2,3
 ```
 
-## Conforme o sistema ERP ou CRM for atualizando os dados e datas, os clientes serão reclassificados e as colunas 'RECENCIA', 'FREQUENCIA' e 'KG_ACUM' serão tualizadas.
+## Conforme a operação for alimentando o sistema ERP ou CRM, as colunas 'RECENCIA', 'FREQUENCIA' e 'KG_ACUM' serão atualizadas e a consequência será a reclassificação dos clientes.
