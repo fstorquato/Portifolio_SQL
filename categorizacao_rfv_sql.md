@@ -1,8 +1,8 @@
 
-# PROBLEMA 
-## ATUAL CATEGORIZAÇÃO DE CLIENTES (GRUPOS A,B,C e D) NÃO CORRESPONDEM A UMA REALIDADE LÓGICA E FORAM DEFINIDOS MANUALMENTE.
+# Problema
+## Atual categorização dos clientes (Grupos A,B,C e D) não correspondem a uma realidade lógica além de terem sidos feitos manualmente sem critério estratégico.
 
-### SOLUÇÃO - CRIAR UMA CATEGORIZAÇÃO DINÂMICA USANDO OS CRITÉRIOS DE RFV:
+### Solução - criar categorização dinâmica usando os critérios de RFV:
 
 ```
     R - RECÊNCIA: QTD DE DIAS DA ÚLTIMA COMPRA
